@@ -60,6 +60,8 @@ img {
 
 #features {
     padding: 10% 0;
+    margin: 1rem 10px !important;
+    text-align: center;
 }
 
 #pricing {
@@ -71,12 +73,13 @@ img {
 
 .plan-cards {
     height: 500px;
-    width: 330px;
+    max-width: 330px;
     border: 2px solid rgb(197, 193, 193);
     border-radius: 10px;
     transition: 2s !important;
     padding: 2rem;
     text-align: center;
+    margin: 1rem 10px;
 }
 
 .plan-cards img {
